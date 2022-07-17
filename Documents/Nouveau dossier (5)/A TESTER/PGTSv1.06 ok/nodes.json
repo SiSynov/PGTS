@@ -1,0 +1,13 @@
+{
+"BINANCE" : "ws://162.55.131.29:8546/",
+
+"KUCHAIN" : "https://rpc-mainnet.kcc.network",
+
+"POLYGON" : "wss://ws-matic-mainnet.chainstacklabs.com",
+
+"FANTOM" : "https://rpcapi.fantom.network/",
+
+"AVALANCHE" : "https://api.avax.network/ext/bc/C/rpc",
+
+"ETHEREUM" : "https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
+}

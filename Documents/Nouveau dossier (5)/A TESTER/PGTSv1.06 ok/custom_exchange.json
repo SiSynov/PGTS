@@ -1,0 +1,13 @@
+{
+  "EXCHANGE_NAME" : "Sushi",
+  "NETWORK_NAME" : "Arbitrum",
+  "NODE" : "https://arb1.arbitrum.io/rpc",
+  "ROUTER_ABI" : "default",
+  "ROUTER" : "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+  "NETWORK_ID" : "42161",
+  "BASE_ADDRESS" : "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+  "BASE_SYMBOL" : "ETH",
+  "ADD_LIQUIDITY_METHOD_ID_BASE" : "0xf305d719",
+  "ADD_LIQUIDITY_METHOD_ID_TOKENS" : "0xe8e33700",
+  "BLOCK_EXPLORER_URL" : "https://arbiscan.io/tx/"
+}

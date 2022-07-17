@@ -1,0 +1,65 @@
+2022-07-13 17:17:58 ERROR: [scheme http is invalid]
+Traceback (most recent call last):
+  File "PGTS.pyx", line 1434, in PGTS
+  File "PGTS.pyx", line 1116, in PGTS.program
+  File "websocket\_core.py", line 249, in connect
+  File "websocket\_http.py", line 108, in connect
+  File "websocket\_url.py", line 66, in parse_url
+ValueError: scheme http is invalid
+2022-07-13 17:23:45 ERROR: [scheme http is invalid]
+Traceback (most recent call last):
+  File "PGTS.pyx", line 1434, in PGTS
+  File "PGTS.pyx", line 1116, in PGTS.program
+  File "websocket\_core.py", line 249, in connect
+  File "websocket\_http.py", line 108, in connect
+  File "websocket\_url.py", line 66, in parse_url
+ValueError: scheme http is invalid
+2022-07-13 17:24:46 ERROR: [scheme http is invalid]
+Traceback (most recent call last):
+  File "PGTS.pyx", line 1434, in PGTS
+  File "PGTS.pyx", line 1116, in PGTS.program
+  File "websocket\_core.py", line 249, in connect
+  File "websocket\_http.py", line 108, in connect
+  File "websocket\_url.py", line 66, in parse_url
+ValueError: scheme http is invalid
+2022-07-13 17:27:40 ERROR: [scheme http is invalid]
+Traceback (most recent call last):
+  File "PGTS.pyx", line 1434, in PGTS
+  File "PGTS.pyx", line 1116, in PGTS.program
+  File "websocket\_core.py", line 249, in connect
+  File "websocket\_http.py", line 108, in connect
+  File "websocket\_url.py", line 66, in parse_url
+ValueError: scheme http is invalid
+2022-07-13 17:31:01 ERROR: [[WinError 1225] Le système distant a refusé la connexion réseau]
+Traceback (most recent call last):
+  File "PGTS.pyx", line 1434, in PGTS
+  File "PGTS.pyx", line 922, in PGTS.program
+  File "web3\module.py", line 57, in caller
+  File "web3\manager.py", line 186, in request_blocking
+  File "web3\manager.py", line 147, in _make_request
+  File "cytoolz/functoolz.pyx", line 250, in cytoolz.functoolz.curry.__call__
+  File "web3\middleware\formatting.py", line 76, in apply_formatters
+  File "web3\middleware\gas_price_strategy.py", line 90, in middleware
+  File "cytoolz/functoolz.pyx", line 250, in cytoolz.functoolz.curry.__call__
+  File "web3\middleware\formatting.py", line 74, in apply_formatters
+  File "web3\middleware\attrdict.py", line 33, in middleware
+  File "cytoolz/functoolz.pyx", line 250, in cytoolz.functoolz.curry.__call__
+  File "web3\middleware\formatting.py", line 74, in apply_formatters
+  File "cytoolz/functoolz.pyx", line 250, in cytoolz.functoolz.curry.__call__
+  File "web3\middleware\formatting.py", line 76, in apply_formatters
+  File "cytoolz/functoolz.pyx", line 250, in cytoolz.functoolz.curry.__call__
+  File "web3\middleware\formatting.py", line 74, in apply_formatters
+  File "web3\middleware\buffered_gas_estimate.py", line 40, in middleware
+  File "web3\providers\websocket.py", line 144, in make_request
+  File "concurrent\futures\_base.py", line 445, in result
+  File "concurrent\futures\_base.py", line 390, in __get_result
+  File "web3\providers\websocket.py", line 124, in coro_make_request
+  File "web3\providers\websocket.py", line 72, in __aenter__
+  File "websockets\legacy\client.py", line 622, in __await_impl__
+  File "asyncio\base_events.py", line 1056, in create_connection
+  File "asyncio\base_events.py", line 1041, in create_connection
+  File "asyncio\base_events.py", line 955, in _connect_sock
+  File "asyncio\proactor_events.py", line 702, in sock_connect
+  File "asyncio\windows_events.py", line 812, in _poll
+  File "asyncio\windows_events.py", line 599, in finish_connect
+ConnectionRefusedError: [WinError 1225] Le système distant a refusé la connexion réseau
