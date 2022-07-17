@@ -1,5 +1,5 @@
 {
-"BINANCE" : "ws://162.55.131.29:8546/",
+"BINANCE" : "ws://127.0.0.1:8546",
 
 "KUCHAIN" : "https://rpc-mainnet.kcc.network",
 
